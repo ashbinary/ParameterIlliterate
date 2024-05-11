@@ -1,12 +1,8 @@
-﻿using System.Runtime.InteropServices;
-using System.Security.Cryptography;
-using LightByml.Lp.Byml;
+﻿using LightByml.Lp.Byml;
+using LightByml.Lp.Byml.Reader;
 using System.Text.Json;
-using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using Force.Crc32;
-using LightByml.Lp.Byml.Reader;
-using System.Text.Json.Serialization;
 
 namespace ParameterIlliterate {
     class Program {
