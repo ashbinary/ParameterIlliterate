@@ -10,7 +10,7 @@ namespace ParameterIlliterate {
             
             if (args.Length == 0)
             {
-                Console.WriteLine("A .bprm file is needed as an argument for this to work!");
+                Console.WriteLine("A .bprm file is needed as an argument for this to work.\nDrag and drop a .bprm onto the executable or input it on the command line!\nPress any key to continue.");
                 Console.ReadLine(); // Pause
                 return;
             }
